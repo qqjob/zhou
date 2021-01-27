@@ -1,0 +1,29 @@
+{
+  "name": "test/zhou",
+  "description": "the ifchange rpc package",
+  "authors": [
+    {
+      "name": "BPC Dev Team"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.4",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "monolog/monolog": "^1.12|^2.0",
+    "php-curl-class/php-curl-class": "^8.6",
+    "psr/log": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zhou\\": "src/"
+    }
+  },
+  "config": {
+    "secure-http": false,
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
