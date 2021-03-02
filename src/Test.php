@@ -1,6 +1,6 @@
 <?php
 
-namespace test\Zhou;
+namespace Zhou;
 
 class Test
 {
